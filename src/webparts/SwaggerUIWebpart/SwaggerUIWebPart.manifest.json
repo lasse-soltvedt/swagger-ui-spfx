@@ -1,0 +1,21 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx/client-side-web-part-manifest.schema.json",
+  "id": "e9955a8e-5b63-4ad7-aec6-4fd41b8f24d6",
+  "alias": "SwaggerUI",
+  "componentType": "WebPart",
+  "version": "*",
+  "manifestVersion": 2,
+  "requiresCustomScript": false,
+  "supportedHosts": ["SharePointWebPart", "TeamsTab"],
+  "supportsFullBleed": true,
+  "preconfiguredEntries": [{
+    "groupId": "5c03119e-3074-46fd-976b-c60198311f70",
+    "group": { "default": "Other" },
+    "title": { "default": "Swagger UI" },
+    "description": { "default": "Swagger UI" },
+    "iconImageUrl": "data:image/png;base64,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",
+    "properties": {
+      "url": "https://petstore.swagger.io/v2/swagger.json"
+    }
+  }]
+}

@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "swagger-ui-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/SwaggerUIWebpart/SwaggerUIWebPart.js",
+          "manifest": "./src/webparts/SwaggerUIWebpart/SwaggerUIWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "SwaggerUiWebPartStrings": "lib/webparts/SwaggerUIWebpart/loc/{locale}.js"
+  }
+}

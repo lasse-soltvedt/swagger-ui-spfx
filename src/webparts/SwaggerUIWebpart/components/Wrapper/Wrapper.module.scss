@@ -1,0 +1,14 @@
+
+%webpart-shared {
+  padding: 15px;
+}
+
+.sharepointContext {
+  @extend %webpart-shared;
+}
+
+.teamsContext {
+  @extend %webpart-shared;
+  background-color: #FFF;
+}
+
